@@ -1,0 +1,1 @@
+sudo apt-get update && sudo dpkg --set-selections < APT_Packages.txt && sudo apt-get dselect-upgrade && sudo apt-get clean && sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoremove && chmod +x install.sh && apt-get install toilet figlet neofetch && figlet DONE
